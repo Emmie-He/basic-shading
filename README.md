@@ -1,7 +1,7 @@
 # Basic Shading
 
 Displays a circular shape that is shaded using the Phong Illumination Model.
-The skeleton was from [Fall 2016 UC Berkeley CS184/284A Foundations of Computer Graphics](ps://inst.eecs.berkeley.edu/~cs184/fa16/assignments.html)
+The skeleton was from [Fall 2016 UC Berkeley CS184/284A Foundations of Computer Graphics](https://inst.eecs.berkeley.edu/~cs184/fa16/assignments.html)
 
 
 ## Examples
