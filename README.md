@@ -6,46 +6,46 @@ The skeleton was from [Fall 2016 UC Berkeley CS184/284A Foundations of Computer 
 
 ## Examples
 * An image showing diffuse only shading from a single directional light source. (-kd 0.5 0.5 0.5 -dl -1 -1 -1 1 1 1)
-![alt text](https://github.com/Emmie-He/basic-shading/img/1)
+![alt text](https://github.com/Emmie-He/basic-shading/img/1.png)
 
 * An image showing diffuse only shading from a single point light source. (-kd 0.5 0.5 0.5 -pl 1 0 1 0 1 0)
-![alt text](https://github.com/Emmie-He/basic-shading/img/2)
+![alt text](https://github.com/Emmie-He/basic-shading/img/2.png)
 
 * An image showing specular only shading from a single point light source. (-ks 0.5 0.5 0.5 -pl 1 0 1 1 1 1 )
-![alt text](https://github.com/Emmie-He/basic-shading/img/3)
+![alt text](https://github.com/Emmie-He/basic-shading/img/3.png)
 
 * An image showing specular only shading from a single directional light source. (-ks 0.5 0.5 0.5 -dl -1 -1 -1 1 1 1)
-![alt text](https://github.com/Emmie-He/basic-shading/img/4)
+![alt text](https://github.com/Emmie-He/basic-shading/img/4.png)
 
 * An image showing combined specular and diffuse shading with only one directional light source. (-ks 0.5 0.5 0.5 -kd 0.5 0.5 0.5 -dl -1 -1 -1 1 1 1)
-![alt text](https://github.com/Emmie-He/basic-shading/img/5)
+![alt text](https://github.com/Emmie-He/basic-shading/img/5.png)
 
 * An image showing combined specular and diffuse shading with one directional light source and one point light source. (-ks 0.5 0.5 0.5 -kd 0.5 0.5 0.5 -dl -1 -1 -1 1 1 1 -pl 1 0 1 0.8 0.2 0.8)
-![alt text](https://github.com/Emmie-He/basic-shading/img/6)
+![alt text](https://github.com/Emmie-He/basic-shading/img/6.png)
 
 * An image showing combined specular and diffuse shading with one directional light source and one point light source on an isotropic material. (-ks 0.5 0.5 0.5 -kd 0.5 0.5 0.5 -dl -1 -1 -1 1 1 1 -pl 1 0 1 0.8 0.2 0.8 -sp 300)
-![alt text](https://github.com/Emmie-He/basic-shading/img/7)
+![alt text](https://github.com/Emmie-He/basic-shading/img/7.png)
 
 * An image showing combined specular and diffuse shading with one directional light source and one point light source on an anisotrophic material. (-ks 0.5 0.5 0.5 -kd 0.5 0.5 0.5 -dl -1 -1 -1 1 1 1 -pl 1 0 1 0.8 0.2 0.8 -sp 2 -spu 10 -spv 100)
-![alt text](https://github.com/Emmie-He/basic-shading/img/8)
+![alt text](https://github.com/Emmie-He/basic-shading/img/8.png)
 
 * An image showing combined specular and diffuse shading with one directional light source and one point light source on an anisotrophic material. (-ks 0.5 0.5 0.5 -kd 0.5 0.5 0.5 -dl -1 -1 -1 1 1 1 -pl 1 0 1 0.8 0.2 0.8 -sp 2 -spu 100 -spv 10)
-![alt text](https://github.com/Emmie-He/basic-shading/img/9)
+![alt text](https://github.com/Emmie-He/basic-shading/img/9.png)
 
 * An image showing combined specular and diffuse shading with one directional light source and two point light source on an isotrophic material. (-ks 0.5 0.5 0.5 -kd 0.5 0.5 0.5 -dl -1 -1 -1 1 1 1 -pl 1 0 1 0.8 0.2 0.8 -sp 2 -pl -1 -1 1 0.5 0.6 0.9)
-![alt text](https://github.com/Emmie-He/basic-shading/img/10)
+![alt text](https://github.com/Emmie-He/basic-shading/img/10.png)
 
 * An image showing combined specular and diffuse shading with one directional light source and two point light source on an isotrophic material (larger sp value). (-kd 0.5 0.5 0.5 -ks 0.5 0.5 0.5 -dl -1 -1 -1 0.2 0.2 0.7 -sp 250 -ka 0.1 0.2 0.1 -pl -1 1 1 1 1 1 -pl 1 -1 1 0 0.2 0.5)
-![alt text](https://github.com/Emmie-He/basic-shading/img/12)
+![alt text](https://github.com/Emmie-He/basic-shading/img/12.png)
 
 * An image showing combined specular and diffuse shading with one directional light source and three point light source on an isotrophic material. (-ks 0.5 0.5 0.5 -kd 0.5 0.5 0.5 -dl -1 -1 -1 1 1 1 -pl 1 0 1 0.8 0.2 0.8 -sp 2 -pl -1 -1 1 0.5 0.6 0.9 -pl -1 1 1 0.1 0.8 0.2)
-![alt text](https://github.com/Emmie-He/basic-shading/img/11)
+![alt text](https://github.com/Emmie-He/basic-shading/img/11.png)
 
 * An image showing combined specular and diffuse shading with one directional light source and one point light source on an Ashikhmin-Shirley material. (-ks .5 .5 .5 -kd .5 .5 .5 -spu 1 -spv 70 -dl -1 -1 -0.2 4 2 1 -pl -1 1 1 0.3 0.8 0.2 -asm)
-![alt text](https://github.com/Emmie-He/basic-shading/img/14)
+![alt text](https://github.com/Emmie-He/basic-shading/img/14.png)
 
 * An image showing combined ambient, specular and diffuse shading with two directional light source on an isotrophic material. (-kd 0.5 0.5 0.5 -ks 0.5 0.5 0.5 -sp 200 -dl -1 -1 -1 0.8 0 0.2 -dl 1 -1 -1 0.4 1 0 -ka 0.3 0.3 0.3)
-![alt text](https://github.com/Emmie-He/basic-shading/img/15)
+![alt text](https://github.com/Emmie-He/basic-shading/img/15.png)
 
 
 ## Get Started
